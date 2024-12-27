@@ -21,6 +21,7 @@ target 'spotifyClone' do
     :path => config[:reactNativePath],
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
+    
   )
 
   target 'spotifyCloneTests' do
